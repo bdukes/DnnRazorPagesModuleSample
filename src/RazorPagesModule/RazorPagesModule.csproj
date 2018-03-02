@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DNNSummit.MVCModule1</RootNamespace>
-    <AssemblyName>MVCModule1</AssemblyName>
+    <RootNamespace>DNNTAG.RazorPagesModule</RootNamespace>
+    <AssemblyName>RazorPagesModule</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -44,20 +44,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DotNetNuke, Version=9.1.1.129, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\DotNetNuke.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\DotNetNuke.dll</HintPath>
     </Reference>
     <Reference Include="DotNetNuke.Web.Mvc.RazorPages.SDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.dll</HintPath>
     </Reference>
     <Reference Include="DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\Microsoft.Web.Infrastructure.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -69,22 +69,22 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.Helpers.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.Razor.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.WebPages.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\System.Web.WebPages.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.27\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -159,8 +159,8 @@
   </ProjectExtensions>
   <PropertyGroup>
     <Extension>zip</Extension>
-    <DNNFileName>MVCModule1</DNNFileName>
-    <PackageName>MVCModule1</PackageName>
+    <DNNFileName>RazorPagesModule</DNNFileName>
+    <PackageName>RazorPagesModule</PackageName>
   </PropertyGroup>
   <Import Project="BuildScripts\ModulePackage.Targets" />
   <Target Name="AfterBuild" DependsOnTargets="PackageModule">

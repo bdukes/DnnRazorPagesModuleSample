@@ -50,7 +50,7 @@
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>DNNSummit.RazorPagesModule/Index.razorpages</controlSrc>
+                    <controlSrc>DNNTAG.RazorPagesModule/Index.razorpages</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <!-- PUT YOUR ASSEMBLY NAME HERE -->
                     <controlTitle>RazorPagesModule</controlTitle>

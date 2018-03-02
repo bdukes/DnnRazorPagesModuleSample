@@ -1,9 +1,10 @@
 ﻿using DotNetNuke.Web.Mvc.RazorPages.SDK;
 
-namespace DNNSummit.MVCModule1.Pages
+namespace DNNTAG.RazorPagesModule.Pages
 {
     public class IndexModel : DnnPageModel
-    {
+    {        
+        
         public IndexModel()
         {            
         }
