@@ -43,15 +43,22 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetNuke, Version=8.0.0.674, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\DNN\DotNetNuke.dll</HintPath>
+    <Reference Include="DotNetNuke, Version=9.1.1.129, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\DotNetNuke.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetNuke.Web.Mvc.RazorPages.SDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\DotNetNuke.Web.Mvc.RazorPages.SDK.NETFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\lib\DNN\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -62,28 +69,22 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\DNN\System.Web.Helpers.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\DNN\System.Web.Mvc.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\DNN\System.Web.Razor.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\DNN\System.Web.WebPages.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.WebPages.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\DNN\System.Web.WebPages.Deployment.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\..\lib\DNN\System.Web.WebPages.Razor.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\DotNetNuke.Web.Mvc.RazorPages.SDK.1.0.17\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -94,18 +95,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_LocalResources\Settings.Designer.cs">
-      <AutoGen>False</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Settings.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Components\FeatureController.cs" />
-    <Compile Include="Components\ItemManager.cs" />
-    <Compile Include="Controllers\SettingsController.cs" />
-    <Compile Include="Models\Item.cs" />
-    <Compile Include="Controllers\ItemController.cs" />
-    <Compile Include="Models\Settings.cs" />
-    <Compile Include="Pages\IndexModel.cs" />
+    <Compile Include="Pages\IndexModel.cshtml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -116,19 +106,8 @@
     <Content Include="ReleaseNotes.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MVCModule1.dnn">
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="BuildScripts\ModulePackage.targets" />
     <Content Include="BuildScripts\MSBuild.Community.Tasks.Targets" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="App_LocalResources\Settings.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Providers\DataProviders\SqlDataProvider\00.00.01.SqlDataProvider" />
@@ -138,32 +117,17 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\_ViewStart.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\github\Dnn.Platform\DNN Platform\DotNetNuke.Web.Mvc.RazorPages\DotNetNuke.Web.Mvc.RazorPages.csproj">
-      <Project>{bdb508b9-04ad-4f63-b374-c7fe57d223dc}</Project>
-      <Name>DotNetNuke.Web.Mvc.RazorPages</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Views\Item\Index.cshtml" />
-    <Content Include="Views\Item\Edit.cshtml" />
-    <Content Include="Views\Settings\Settings.cshtml" />
     <Content Include="Pages\Index.cshtml" />
+    <Content Include="RazorPagesModule.dnn" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_LocalResources\Item.resx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
